@@ -1,0 +1,24 @@
+{
+  "name": "antdup",
+  "version": "0.0.1",
+  "description": "an updated version of the react component library based on antd",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangw5/antdup.git"
+  },
+  "keywords": [
+    "react",
+    "admin",
+    "antd"
+  ],
+  "author": "young5",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yangw5/antdup/issues"
+  },
+  "homepage": "https://github.com/yangw5/antdup#readme"
+}
