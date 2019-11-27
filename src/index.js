@@ -1,13 +1,13 @@
 /*
  * @File:
- * @Description:组件库统一导出文件
+ * @Description:
  * @Autor: yangw5
  * @Email: yangw5@163.com
- * @Date: 2019-11-22 11:12:15
+ * @Date: 2019-11-25 13:50:54
  * @LastEditors: yangw5
- * @LastEditTime: 2019-11-25 10:27:37
- * @FilePath: \antdup\src\index.js
+ * @LastEditTime: 2019-11-25 14:01:52
+ * @FilePath: \react-antdup\src\index.js
  */
+import Alert from "./alert";
 
-export { default as Alert } from "./alert/Alert";
-export { default as Button } from "./button";
+export { Alert };

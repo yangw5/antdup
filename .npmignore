@@ -1,0 +1,5 @@
+/node_modules
+copy.js
+/src
+.gitignore
+.npmignore
