@@ -10,7 +10,9 @@
     "compile": "node copy.js && npx babel src -d lib",
     "watch:osx": "watch 'yarn compile' src",
     "watch:windows": "watch \"yarn compile\" src",
-    "rollup": "rollup -c"
+    "rollup": "rollup -c",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
@@ -18,11 +20,21 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "fs-extra": "^7.0.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
     "rollup": "^1.27.5",
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-eslint": "^7.0.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "watch": "^1.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@storybook/addon-actions": "^5.3.12",
+    "@storybook/addon-links": "^5.3.12",
+    "@storybook/addons": "^5.3.12",
+    "@storybook/react": "^5.3.12",
+    "babel-loader": "^7.1.5"
   }
 }
