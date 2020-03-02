@@ -12,7 +12,8 @@
     "watch:windows": "watch \"yarn compile\" src",
     "rollup": "rollup -c",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "style": "node copy.js"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
